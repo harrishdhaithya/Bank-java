@@ -6,4 +6,4 @@ set javadirs=src/com/model/* src/com/controller/* src/com/Singleton/* src/com/da
 javac -d target %javadirs%
 
 //Run
-java -cp %classpath% Views.Main
+java Views.Main
